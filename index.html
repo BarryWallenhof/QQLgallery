@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My GitHub Pages Website</title>
+    <title>Barry's Personal Website</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -18,6 +18,20 @@
             color: #fff;
             padding: 1rem 0;
             text-align: center;
+        }
+        nav {
+            background: #444;
+            color: #fff;
+            padding: 0.5rem;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 1rem;
+        }
+        nav a:hover {
+            text-decoration: underline;
         }
         .container {
             max-width: 800px;
@@ -45,19 +59,27 @@
 </head>
 <body>
     <header>
-        <h1>Welcome to My Website</h1>
+        <h1>Barry's Personal Website</h1>
     </header>
-    <div class="container">
-        <p>Hello! This is a simple website hosted using GitHub Pages. You can use this template to get started with your own website. Edit this content to add your personal touch!</p>
-
-        <h2>About Me</h2>
-        <p>Write a short paragraph about yourself here. You can include your interests, hobbies, or anything you'd like to share with your visitors.</p>
-
-        <h2>Contact</h2>
-        <p>If you'd like to reach out, feel free to <a href="mailto:your-email@example.com">send me an email</a>.</p>
+    <nav>
+        <a href="#qql">QQL</a>
+        <a href="#essays">Essays</a>
+        <a href="#gallery">Gallery</a>
+    </nav>
+    <div class="container" id="qql">
+        <h2>QQL</h2>
+        <p>Welcome to the QQL section! Here you can explore everything related to QQL topics and themes.</p>
+    </div>
+    <div class="container" id="essays">
+        <h2>Essays</h2>
+        <p>Discover a collection of essays on various subjects that spark curiosity and inspire thought.</p>
+    </div>
+    <div class="container" id="gallery">
+        <h2>Gallery</h2>
+        <p>Take a look at my gallery, showcasing images and artwork that I find meaningful.</p>
     </div>
     <footer>
-        <p>&copy; 2025 Your Name. Built with love for GitHub Pages.</p>
+        <p>&copy; 2025 Barry Wallenhof. Built with passion and creativity.</p>
     </footer>
 </body>
 </html>
